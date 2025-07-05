@@ -23,7 +23,7 @@ print("\nTicker symbols:", tickers)
 print("Portfolio weights:", weights)
 
 #Download historical prices
-start_date = '2023-01-01'
+start_date = '2024-01-01'
 end_date = '2026-01-01'
 data = yf.download(tickers, start=start_date, end=end_date)['Close']
 data = data.dropna()
